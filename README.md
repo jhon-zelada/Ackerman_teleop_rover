@@ -6,27 +6,28 @@ This ROS 2 package provides teleoperation capabilities for a 6-wheeled Ackerman-
 
 ## 📌 Features
 
-    Keyboard and Joystick Control: Allows seamless teleoperation using either a keyboard or a game controller.
+Keyboard and Joystick Control: Allows seamless teleoperation using either a keyboard or a game controller.
 
-    Ackerman Steering: Implements position and velocity controllers for precise movement.
+Ackerman Steering: Implements position and velocity controllers for precise movement.
 
-    ROS 2 Controllers:
+ROS 2 Controllers:
 
-        Joint position controllers for boogie and angular joints.
+    Joint position controllers for boogie and angular joints.
 
-        Velocity controllers for wheel movement and LIDAR rotation.
+    Velocity controllers for wheel movement and LIDAR rotation.
 
-    Customizable Gains: PID tuning for optimized performance.
+Customizable Gains: PID tuning for optimized performance.
 
 ## 🚀 Installation
 
 Clone the repository and build the package within a ROS 2 workspace:
 
-cd ~/ros2_ws/src  
-git clone https://github.com/jhon-zelada/Ackerman_teleop_rover.git  
-cd ~/ros2_ws  
-colcon build  
-source install/setup.bash  
+    mkdir -p ~/ros2_ws/src 
+    cd ~/ros2_ws/src  
+    git clone https://github.com/jhon-zelada/Ackerman_teleop_rover.git  
+    cd ~/ros2_ws  
+    colcon build  
+    source install/setup.bash  
 
 ## 🎮 Usage
 Keyboard Control
