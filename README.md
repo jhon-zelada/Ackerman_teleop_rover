@@ -32,11 +32,10 @@ Clone the repository and build the package within a ROS 2 workspace:
 ## 🎮 Usage
 Keyboard Control
 
-ros2 launch ackerman_teleop keyboard_teleop.launch.py  
-
+    ros2 run rover_control teleop_keyboard_ackermann_executable
 Joystick Control
 
-ros2 launch ackerman_teleop joystick_teleop.launch.py  
+    ros2 run rover_control teleop_joystick_ackermann_executable
 
 ## 📖 Configuration
 
